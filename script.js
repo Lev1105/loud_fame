@@ -1,3 +1,8 @@
+function toggleMenu(){
+  const menu = document.getElementById("mobile-menu");
+  menu.classList.toggle("show");
+}
+
 function addToCart(productName, price){
 let cart=JSON.parse(localStorage.getItem("cart"))||[];
 cart.push({name:productName,price});localStorage.setItem("cart",JSON.stringify(cart));
