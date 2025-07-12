@@ -22,6 +22,12 @@ footer{background:#000;padding:20px;text-align:center}.socials a{margin:0 10px;c
   .product{width:90%}
   .hero-logo {
     width: 150px;
-    height: auto;
+    height: auto; 
     margin-bottom: 20px;
+  }
+
+  @media (min-widht: 768px) {
+    .hero-logo {
+      widht: 180px;
+    }
   }
